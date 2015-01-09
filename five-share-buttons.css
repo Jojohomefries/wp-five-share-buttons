@@ -1,6 +1,6 @@
 .five-buttons {
     width: 512px;
-    overflow: hidden;
+    overflow: visible;
     margin: 0;
     padding: 0;
     padding-top: 12px;

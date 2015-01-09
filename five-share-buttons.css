@@ -1,0 +1,19 @@
+.five-buttons {
+    width: 512px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.five-buttons table {
+    margin: 0;
+    padding: 0;
+}
+.fb-like, #fb-root, .twitter-share-button{
+/*    width: 115px;*/
+}
+.twitter-share-button {
+    width: 105px!important;
+    overflow: hidden;
+}

@@ -75,6 +75,23 @@ class FiveShareButton
                 . '</tr></tbody></table>';
 		return $button_code;
 	}
+	/**
+         * the_buttons_flex()
+         * Функция возвращает html-код кнопок
+	 * return buttons in a flex layout
+         *
+         * @return string
+         */
+	function the_buttons_flex() {
+            $button_code =
+                '<div class="five_buttons_flex">'
+                . '<div class="flex_button">' . $this->vkButton . '</div>'
+                . '<div class="flex_button">' . $this->twitterButton . '</div>'
+                . '<div class="flex_button">' . $this->odnoklassnikiButtom . '</div>'
+                . '<div class="flex_button">' . $this->facebookButton . '</div>'
+                . '</div>';
+		return $button_code;
+	}
         /**
          * place_button()
          * Функция размещает код кнопок в посте

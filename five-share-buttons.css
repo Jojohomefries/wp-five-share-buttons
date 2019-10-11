@@ -17,3 +17,9 @@
     width: 105px!important;
     overflow: hidden;
 }
+.five_buttons_flex {
+    display: flex;
+}
+.five_buttons_flex .flex_button {
+    flex: 1;
+}
